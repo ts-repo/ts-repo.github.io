@@ -12,6 +12,11 @@ Public support pages for apps published by ts-repo.
 - Support: https://ts-repo.github.io/my-coffee-log/
 - Privacy Policy: https://ts-repo.github.io/my-coffee-log/privacy-policy/
 
+## エンタメログ
+
+- Support: https://ts-repo.github.io/entamelog/
+- Privacy Policy: https://ts-repo.github.io/entamelog/privacy-policy/
+
 ## GitHub Pages
 
 Create a GitHub repository named `ts-repo.github.io`, push this repository to `main`, then enable GitHub Pages from the repository settings if it is not enabled automatically.

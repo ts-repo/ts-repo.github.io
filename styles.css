@@ -159,6 +159,7 @@ a {
 }
 
 .links.compact {
+  grid-column: 2;
   margin-top: 4px;
 }
 
@@ -194,6 +195,7 @@ footer {
 .app-card {
   display: grid;
   grid-template-columns: 58px 1fr;
+  grid-template-rows: auto auto;
   gap: 16px;
   align-items: start;
   padding: 18px;
@@ -202,6 +204,10 @@ footer {
   background: rgba(255, 255, 255, 0.78);
   backdrop-filter: blur(16px);
   box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
+}
+
+.app-card > div:nth-child(2) {
+  min-width: 0;
 }
 
 .app-card h2 {
@@ -272,6 +278,10 @@ footer {
     grid-template-columns: 48px 1fr;
     gap: 12px;
     padding: 15px;
+  }
+
+  .links.compact {
+    grid-column: 1 / -1;
   }
 
   .app-icon {
